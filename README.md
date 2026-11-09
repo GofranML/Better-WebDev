@@ -108,19 +108,58 @@ Better-WebDev/
 
 ---
 
-##  Quickstart Guide
+##  Quickstart Guide (Zero Manual Setup)
 
-### 1. Verification of the Distribution
-Before deploying the toolkit, verify package integrity:
+Tidak perlu menyalin atau menempelkan (*copy-paste*) berkas keterampilan secara manual. Biarkan AI Agent Anda di CLI yang mengekstrak dan memasangnya secara otomatis dalam 3 langkah mudah:
+
+### Langkah 1: Unduh Berkas ZIP
+Unduh atau letakkan berkas [`universal-agent-skills-toolkit-v1.0.1.zip`](universal-agent-skills-toolkit-v1.0.1.zip) ke dalam direktori kerja proyek Anda:
+
 ```bash
-# Verify archive integrity (PowerShell)
-Get-FileHash -Algorithm SHA256 universal-agent-skills-toolkit-v1.0.1.zip
+# Opsi A: Unduh langsung via curl / wget
+curl -L -O https://github.com/GofranML/Better-WebDev/raw/main/universal-agent-skills-toolkit-v1.0.1.zip
 
-# Or run the built-in diagnostic audit (Node.js 18+)
-node universal-agent-skills-toolkit-v1.0.1-workspace/tools/utilities/audit-toolkit-health.mjs
+# Opsi B: Atau kloning repositori lengkap
+git clone https://github.com/GofranML/Better-WebDev.git
 ```
 
-### 2. Integration by Host Agent
+### Langkah 2: Buka AI Agent di CLI
+Buka terminal pada folder tempat berkas zip tersebut berada, lalu jalankan AI Agent pilihan Anda:
+
+```bash
+# Google Antigravity CLI (AGY)
+agy
+
+# Atau Claude Code
+claude
+
+# Atau Gemini CLI / Cursor terminal
+gemini
+```
+
+### Langkah 3: Minta Agent untuk Memasang Otomatis
+Salin dan kirimkan prompt instruksi berikut langsung ke chat AI Agent Anda:
+
+> **Prompt Instruksi untuk AI Agent (Bahasa Indonesia):**
+> ```text
+> Tolong ekstrak file universal-agent-skills-toolkit-v1.0.1.zip di folder ini, baca petunjuk yang ada di dalam INSTALL.md dan instructions/UNIVERSAL_AGENT_INSTRUCTIONS.md, lalu pasang dan integrasikan keterampilan (skills) serta instruksinya secara otomatis ke lingkungan agent ini tanpa duplikasi.
+> ```
+
+> **Prompt for AI Agent (English):**
+> ```text
+> Extract universal-agent-skills-toolkit-v1.0.1.zip in this directory, review the instructions in INSTALL.md and instructions/UNIVERSAL_AGENT_INSTRUCTIONS.md, and automatically configure and install the appropriate skills and guidelines for this agent environment without duplicating existing tools.
+> ```
+
+### 🔍 Cara Kerja Otomatis di Balik Layar
+1. **Identifikasi Diri Agen**: AI Agent Anda akan mendeteksi platformnya sendiri (Google Antigravity, Claude Code, Gemini CLI, Cursor, atau Codex).
+2. **Audit Pencegahan Duplikasi**: Agen memeriksa keterampilan yang sudah ada di sistem Anda terhadap `MANIFEST.json` dan `DUPLICATE_DETECTION.md`.
+3. **Pemasangan Mandiri**: Agen membuat tautan symlink atau menyalin skill yang dibutuhkan ke direktori resmi agent harness.
+4. **Verifikasi**: Agen memverifikasi bahwa seluruh metadata dan instruksi terbaca dengan sempurna.
+
+---
+
+### Manual Integration Reference (Opsional)
+Jika Anda lebih menyukai penempatan manual untuk kontrol penuh, gunakan referensi direktori berikut:
 
 | Agent | Target Directory / Integration Method | Documentation |
 |---|---|---|

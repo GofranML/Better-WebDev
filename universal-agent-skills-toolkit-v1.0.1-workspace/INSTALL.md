@@ -4,12 +4,22 @@ Dokumen ini memandu pemasangan toolkit ke dalam berbagai host agent AI.
 
 ---
 
-## 1. Quickstart Lintas Agen
+## 1. Quickstart: Instalasi Otomatis via AI Agent CLI (Direkomendasikan)
 
-### Langkah 1: Ekstrak Berkas Distribusi
-Ekstrak file `universal-agent-skills-toolkit.zip` ke lokasi penyimpanan alat atau dokumen di komputer Anda (misalnya `~/tools/Universal-Agent-Skills-Toolkit` atau `C:\tools\Universal-Agent-Skills-Toolkit`).
+Pengguna tidak perlu lagi menyalin berkas secara manual. Anda dapat meminta AI Agent favorit Anda di terminal untuk melakukan ekstraksi dan konfigurasi secara mandiri:
 
-### Langkah 2: Pilih Panduan Berdasarkan Agen Anda
+1. Unduh `universal-agent-skills-toolkit-v1.0.1.zip` ke folder kerja Anda.
+2. Buka terminal dan jalankan AI Agent Anda (`agy`, `claude`, `gemini`, dll.).
+3. Berikan instruksi berikut kepada agen:
+   > *"Tolong ekstrak file universal-agent-skills-toolkit-v1.0.1.zip di folder ini, baca petunjuk yang ada di dalam INSTALL.md dan instructions/UNIVERSAL_AGENT_INSTRUCTIONS.md, lalu pasang dan integrasikan keterampilan (skills) serta instruksinya secara otomatis ke lingkungan agent ini tanpa membuat duplikasi."*
+
+Agen akan secara otomatis mendeteksi platformnya, memeriksa dependensi dan duplikasi, lalu memasang skill yang relevan ke direktori sistem Anda.
+
+---
+
+## 2. Pemasangan Manual Berdasarkan Host Agent (Opsional)
+
+Jika Anda ingin melakukan penataan berkas sendiri:
 
 | Host Agent | Panduan Terperinci | Langkah Cepat |
 |---|---|---|
@@ -22,7 +32,7 @@ Ekstrak file `universal-agent-skills-toolkit.zip` ke lokasi penyimpanan alat ata
 
 ---
 
-## 2. Kebijakan Anti-Duplikasi
+## 3. Kebijakan Anti-Duplikasi
 
 Sebelum menyalin folder keterampilan apa pun:
 1. Periksa apakah skill dengan nama atau fungsi serupa sudah ada pada direktori host Anda.

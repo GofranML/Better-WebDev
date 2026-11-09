@@ -8,6 +8,7 @@ Seluruh riwayat pembuatan, restrukturisasi, sanitasi jalur, dan verifikasi paket
 
 ### Changed
 - Memperbarui nama repositori dan identitas proyek menjadi **Better WebDev** (`https://github.com/GofranML/Better-WebDev.git`).
+- Menyederhanakan alur **Quickstart Guide** pada `README.md` dan `INSTALL.md` dengan metode otomatisasi mandiri via AI Agent CLI (bebas dari copy-paste manual).
 
 ---
 
