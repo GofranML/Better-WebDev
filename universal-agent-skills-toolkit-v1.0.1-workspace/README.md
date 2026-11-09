@@ -34,7 +34,7 @@ Universal-Agent-Skills-Toolkit/
 │   ├── dioramas-web-design/           # Panduan 3D Three.js berbasis Dioramas
 │   ├── lucide-icons/                  # Antarmuka ekstraksi 1.903 ikon SVG otentik
 │   ├── framer-motion/                 # Animasi deklaratif React & Motion WAAPI
-│   └── karpathy-guidelines/           # Panduan perilaku coding bedah minimalis
+│   └── karpathy-guidelines/           # Panduan perilaku coding bedah minimalis (multica-ai/andrej-karpathy-skills)
 │
 ├── skills/                            # Klasifikasi hierarkis keterampilan
 │   ├── official/                      # Skills resmi (DaisyUI, Impeccable, Improve)
@@ -84,7 +84,7 @@ Universal-Agent-Skills-Toolkit/
 1. **Orkestrasi Desain Tanpa Watermark**: Memadukan `master-design-intelligence`, `design-taste-frontend`, dan `impeccable` untuk menghasilkan antarmuka berkualitas craft tinggi bebas template klise AI dan bebas logo vendor pihak ketiga.
 2. **Rekayasa Gerak Ortogonal**: Pemisahan tegas antara CSS transitions, animasi deklaratif React (`framer-motion`), timeline kompleks ScrollTrigger (`gsap-motion-specialist`), efek kanvas GPU (`shaders-webgpu-specialist`), dan adegan 3D (`dioramas-web-design`).
 3. **Pemberantasan Pola AI-Slop**: Penataan terstruktur 5 alat anti-slop (`humanizer`, `avoid-ai-writing`, `no-ai-slop`, `stop-slop`, `antislop`) dengan pembagian peran yang jelas.
-4. **Alur Kerja Rekayasa Senior**: Mengintegrasikan `superpowers` (TDD, brainstorming, worktrees), `ponytail` (anti-overengineering), dan `karpathy-guidelines` (bedah kode minimalis).
+4. **Alur Kerja Rekayasa Senior**: Mengintegrasikan `superpowers` (TDD, brainstorming, worktrees), `ponytail` (anti-overengineering), dan `karpathy-guidelines` ([`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills) — bedah kode minimalis).
 5. **Universal Portability**: Semua berkas telah disanitasi dari absolute path lokal Windows dan siap digunakan pada Linux, macOS, maupun Windows.
 
 ---

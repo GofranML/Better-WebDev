@@ -21,7 +21,7 @@ Standard AI agents often suffer from generic code patterns, over-engineering, cl
 | ** Design Craft & Visual Intelligence** | `master-design-intelligence`, `anatomy`, `impeccable`, `daisyui`, `lucide-icons` | Stops generic, soulless interfaces; enforces authentic SVG icons, four-tone isometric technical figures, DaisyUI components, and strict anti-watermark policies. |
 | ** Advanced Motion & 3D Engineering** | `gsap-motion-specialist`, `shaders-webgpu-specialist`, `dioramas-web-design`, `framer-motion` | Replaces jarring CSS with production-grade GSAP ScrollTrigger timelines, declarative Framer Motion, 3D Three.js dioramas, and WebGPU shaders with automatic 4-tier fallbacks. |
 | ** Anti-Slop & Copywriting Hygiene** | `antislop-ui`, `antislop-code`, `antislop-human`, `antislop-copywriting`, `humanizer`, `avoid-ai-writing` | Eradicates robotic AI phrasing, deletes low-value AI comment bloat, guarantees WCAG accessibility, and ensures human-sounding copy. |
-| ** Senior Engineering Discipline** | `karpathy-guidelines`, `ponytail`, `superpowers` (TDD, Worktrees, Systematic Debugging), `codebase-improve` | Enforces minimalist surgical code edits, "lazy senior dev" YAGNI principles, isolated git worktrees, strict test-driven development, and root-cause debugging before patching. |
+| ** Senior Engineering Discipline** | `karpathy-guidelines` ([`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills)), `ponytail`, `superpowers` (TDD, Worktrees, Systematic Debugging), `codebase-improve` | Enforces minimalist surgical code edits, "lazy senior dev" YAGNI principles, isolated git worktrees, strict test-driven development, and root-cause debugging before patching. |
 | ** Tooling & Protocol Integration** | `mcp-adapters` (Playwright, Desktop Touch, REA), `graphify`, `audit-toolkit-health` | Standardized Model Context Protocol (MCP) tool configurations for headless browser verification, reverse-engineering, desktop GUI control, and architectural graph inspection. |
 
 ---
@@ -62,7 +62,7 @@ Make-the-AI-agent-better/
     │   ├── dioramas-web-design/                        # Cinematic 3D web scenes via Three.js
     │   ├── lucide-icons/                               # 1,900+ authentic Lucide SVG icon extractor
     │   ├── framer-motion/                              # Declarative React motion & WAAPI engine
-    │   └── karpathy-guidelines/                        # Minimalist surgical LLM coding behaviors
+    │   └── karpathy-guidelines/                        # Minimalist surgical LLM coding behaviors (upstream: multica-ai/andrej-karpathy-skills)
     │
     ├── skills/                                         # Categorized skill collections
     │   ├── official/                                   # DaisyUI, Impeccable, Codebase-Improve

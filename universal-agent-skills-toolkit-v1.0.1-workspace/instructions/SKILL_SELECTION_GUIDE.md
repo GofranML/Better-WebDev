@@ -59,5 +59,5 @@ Pilih **satu alat utama** per jenis tugas:
 ## 4. Matriks Seleksi Alur Kerja Rekayasa (Engineering Workflow Cluster)
 
 - **Untuk fitur baru atau perbaikan bug kritis**: Mulai dengan `superpowers:brainstorming` -> `superpowers:writing-plans` -> `superpowers:test-driven-development` -> `superpowers:verification-before-completion`.
-- **Untuk tugas coding harian yang lugas**: Terapkan prinsip `ponytail` (kode paling ringkas) dan `karpathy-guidelines` (bedah minimalis tanpa fitur spekulatif).
+- **Untuk tugas coding harian yang lugas**: Terapkan prinsip `ponytail` (kode paling ringkas) dan `karpathy-guidelines` (upstream: [`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills) — bedah minimalis tanpa fitur spekulatif).
 - **Untuk audit arsitektur repositori yang besar**: Jalankan `codebase-improve` dalam mode read-only untuk memetakan rencana kerja.

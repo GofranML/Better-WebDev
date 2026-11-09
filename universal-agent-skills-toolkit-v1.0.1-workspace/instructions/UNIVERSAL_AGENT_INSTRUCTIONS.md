@@ -71,7 +71,7 @@ Jangan memanggil beberapa skill yang berada dalam ranah yang sama secara bersama
 ### D. Ranah Rekayasa & Alur Kerja Agen (Core Engineering Workflows)
 - **Alur Kerja Standar Senior**: Gunakan `superpowers` untuk alur TDD, brainstorming terstruktur, pembuatan rencana bertahap, dan verifikasi sebelum penyelesaian.
 - **Solusi Ringkas & Anti-Overengineering**: Terapkan filosofi `ponytail` untuk menghasilkan perubahan terkecil yang menyelesaikan masalah secara tuntas.
-- **Panduan Perilaku LLM Minimalis**: Terapkan `karpathy-guidelines` (think before coding, surgical changes, goal-driven execution).
+- **Panduan Perilaku LLM Minimalis**: Terapkan `karpathy-guidelines` (repositori resmi / upstream: [`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills)) — mencakup 4 prinsip utama pencegah kesalahan LLM: *Think Before Coding* (jangan berasumsi, buka kebingungan), *Simplicity First* (kode minimal tanpa spekulasi), *Surgical Changes* (sentuh hanya yang diminta), dan *Goal-Driven Execution* (looping verifikasi terukur).
 - **Audit Kode Skala Besar**: Gunakan `codebase-improve` (author: shadcn) untuk memetakan arsitektur dan membuat rencana kerja mandiri bagi agen eksekutor.
 - **Reverse Engineering Target**: Gunakan `reverse-engineer-anything` (REA) untuk membedah biner native atau runtime web.
 

@@ -41,6 +41,7 @@ Tiga custom skills orisinal yang dikembangkan di lingkungan AGY berstatus hak ci
 | **GSAP** | greensock/GSAP | GreenSock Standard | Pertahankan header lisensi GreenSock | Tidak Ada |
 | **Playwright MCP** | microsoft/playwright-mcp | Apache-2.0 | Sertakan salinan lisensi Apache | Tidak Ada |
 | **Desktop Touch MCP** | Harusame64/desktop-touch-mcp | MIT License | Pertahankan lisensi MIT asli | Tidak Ada |
+| **Andrej Karpathy Skills** (custom-skills/karpathy-guidelines) | multica-ai/andrej-karpathy-skills | MIT License | Pertahankan lisensi MIT asli | Tidak Ada |
 
 ---
 

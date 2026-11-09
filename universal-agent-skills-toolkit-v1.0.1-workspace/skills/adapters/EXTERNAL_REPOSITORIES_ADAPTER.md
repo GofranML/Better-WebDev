@@ -1,6 +1,6 @@
 # External Repositories Adapter & Integration Guide
 
-Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk instalasi untuk 12 repositori pihak ketiga yang tidak dibundel secara lokal demi menjaga ukuran distribusi tetap ringkas dan portabel.
+Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk instalasi untuk 13 repositori pihak ketiga yang tidak dibundel secara lokal demi menjaga ukuran distribusi tetap ringkas dan portabel.
 
 ---
 
@@ -94,3 +94,23 @@ Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk 
 - **Fungsi**: Pola orkestrasi alur kerja agen multi-step dari Google Labs Code.
 - **Kategori**: Multi-Agent Workflows.
 - **Lisensi**: Apache-2.0.
+
+### 13. Andrej Karpathy Skills (`https://github.com/multica-ai/andrej-karpathy-skills`)
+- **Fungsi**: Kumpulan pedoman perilaku dan keterampilan operasional untuk AI coding agents (Claude Code, Cursor, AGY) berdasarkan observasi Andrej Karpathy mengenai jebakan umum LLM coding.
+- **Kategori**: AI Agent Behavioral Guidelines & LLM Pitfall Prevention.
+- **Lisensi**: MIT.
+- **Prinsip Inti**:
+  1. *Think Before Coding*: Jangan berasumsi, jangan sembunyikan kebingungan, buka pertukaran (*trade-offs*).
+  2. *Simplicity First*: Kode minimal yang menyelesaikan masalah, tanpa fitur spekulatif.
+  3. *Surgical Changes*: Sentuh hanya apa yang perlu, bersihkan hanya perubahan Anda sendiri.
+  4. *Goal-Driven Execution*: Tetapkan kriteria sukses, loop hingga terverifikasi.
+- **Kesesuaian di Toolkit**: Dibundel secara mandiri dan portabel pada `custom-skills/karpathy-guidelines/SKILL.md`.
+- **Instalasi ke Agen**:
+  ```bash
+  # Instalasi via Claude Code plugin
+  /plugin marketplace add multica-ai/andrej-karpathy-skills
+  /plugin install andrej-karpathy-skills@karpathy-skills
+
+  # Atau kloning referensi:
+  git clone https://github.com/multica-ai/andrej-karpathy-skills.git
+  ```
