@@ -54,9 +54,11 @@ Jangan memanggil beberapa skill yang berada dalam ranah yang sama secara bersama
 - **Arah Seni Visual (Art Direction)**: Gunakan `design-taste-frontend` saat merancang identitas visual landing page dari awal untuk menghindari template generik.
 - **Kritik & Audit Craft**: Gunakan `impeccable` untuk memeriksa kontras warna, ritme vertikal tipografi, hierarki visual, dan affordance interaksi tombol.
 - **Ikon Vektor**: Gunakan `lucide-icons` untuk mengambil ikon Lucide yang valid tanpa halusinasi jalur SVG.
+- **Komponen Animasi & UI Kreatif React**: Gunakan `react-bits` (repositori resmi / upstream: [`DavidHDev/react-bits`](https://github.com/DavidHDev/react-bits)) untuk komponen animasi React siap pakai, efek teks interaktif (*Split Text*, *Shiny Text*, *Blur Text*), kartu beranimasi (*Tilted Card*, *Spotlight Card*), dan latar belakang dinamis (*Hyperspeed*, *Waves*, *Ballpit*).
 
 ### B. Ranah Animasi & Rekayasa Gerak (Motion Engineering)
 - **Komponen Reaktif React**: Gunakan `framer-motion` untuk gesture drag, modal exit animations (`AnimatePresence`), dan animasi spring physics.
+- **Efek Teks & Widget Animasi React**: Padukan `react-bits` bersama `framer-motion` untuk animasi mikro antarmuka React yang telah teroptimasi tanpa perlu mengkodekan ulang matematika animasi.
 - **Timeline Beruntun & ScrollTrigger**: Gunakan `gsap-motion-specialist` untuk animasi berbasis scroll, parallax, garis SVG morphing, dan animasi di Laravel Blade native.
 - **Efek Visual GPU & Kanvas**: Gunakan `shaders-webgpu-specialist` untuk simulasi partikel, shader cairan WGSL, dan selalu terapkan arsitektur 4-tier fallback (WebGPU -> WebGL2 -> Canvas 2D -> CSS Gradient).
 - **Adegan 3D Interaktif**: Gunakan `dioramas-web-design` untuk pengalaman 3D Three.js lokal bebas watermark.
@@ -73,6 +75,7 @@ Jangan memanggil beberapa skill yang berada dalam ranah yang sama secara bersama
 - **Solusi Ringkas & Anti-Overengineering**: Terapkan filosofi `ponytail` untuk menghasilkan perubahan terkecil yang menyelesaikan masalah secara tuntas.
 - **Panduan Perilaku LLM Minimalis**: Terapkan `karpathy-guidelines` (repositori resmi / upstream: [`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills)) — mencakup 4 prinsip utama pencegah kesalahan LLM: *Think Before Coding* (jangan berasumsi, buka kebingungan), *Simplicity First* (kode minimal tanpa spekulasi), *Surgical Changes* (sentuh hanya yang diminta), dan *Goal-Driven Execution* (looping verifikasi terukur).
 - **Audit Kode Skala Besar**: Gunakan `codebase-improve` (author: shadcn) untuk memetakan arsitektur dan membuat rencana kerja mandiri bagi agen eksekutor.
+- **Registri & Scaffolding Komponen (MCP)**: Gunakan MCP server `shadcn` (`npx shadcn@latest mcp`) untuk penelusuran katalog registri komponen UI secara otomatis dan instalasi blok antarmuka langsung dari agent prompt.
 - **Reverse Engineering Target**: Gunakan `reverse-engineer-anything` (REA) untuk membedah biner native atau runtime web.
 
 ### E. Ranah Keamanan Aplikasi & Bug Hunting (Application Security & Bug Bounty)

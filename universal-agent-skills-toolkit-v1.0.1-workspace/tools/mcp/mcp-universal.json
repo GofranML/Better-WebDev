@@ -38,6 +38,15 @@
       ],
       "env": {},
       "description": "Reverse Engineer Anything (REA) multi-target analysis and runtime inspection server (Version 6.5.0 verified)"
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ],
+      "env": {},
+      "description": "Official shadcn CLI Model Context Protocol (MCP) server for component registry discovery and installation"
     }
   }
 }

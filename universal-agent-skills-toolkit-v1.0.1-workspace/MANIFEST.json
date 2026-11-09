@@ -596,11 +596,11 @@
     }
   ],
   "sourceInventorySummary": {
-    "totalExamined": 41,
+    "totalExamined": 42,
     "alreadyInstalled": 26,
     "partiallyInstalled": 1,
-    "notInstalledExternalAdapters": 14,
-    "sum": 41
+    "notInstalledExternalAdapters": 15,
+    "sum": 42
   },
   "externalAdapters": [
     "tabler",
@@ -615,6 +615,7 @@
     "Dammyjay93/interface-design",
     "Superfuture/design-review",
     "google-labs-code/stitch-skills",
-    "awarexone/Agentic-Bug-Hunter"
+    "awarexone/Agentic-Bug-Hunter",
+    "DavidHDev/react-bits"
   ]
 }

@@ -40,10 +40,10 @@ Universal-Agent-Skills-Toolkit/
 │   ├── official/                      # Skills resmi (DaisyUI, Impeccable, Improve)
 │   ├── third-party/                   # Skills pihak ketiga (Anti-slop, Superpowers, dll)
 │   ├── custom/                        # Kaca cermin custom skills terindeks
-│   └── adapters/                      # Panduan integrasi 14 repositori eksternal
+│   └── adapters/                      # Panduan integrasi 15 repositori eksternal
 │
 ├── tools/                             # Perangkat pendukung teknis
-│   ├── mcp/                           # Konfigurasi universal MCP (Playwright, Touch, REA)
+│   ├── mcp/                           # Konfigurasi universal MCP (Playwright, Touch, REA, shadcn)
 │   ├── animation/                     # Dokumentasi & referensi API Motion
 │   ├── graphics-3d/                   # Core engine & dokumentasi Dioramas Three.js
 │   ├── ui-libraries/                  # Pustaka komponen DaisyUI lengkap

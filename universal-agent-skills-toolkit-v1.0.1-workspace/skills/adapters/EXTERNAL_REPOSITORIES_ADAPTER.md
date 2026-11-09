@@ -1,6 +1,6 @@
 # External Repositories Adapter & Integration Guide
 
-Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk instalasi untuk 14 repositori pihak ketiga yang tidak dibundel secara lokal demi menjaga ukuran distribusi tetap ringkas dan portabel.
+Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk instalasi untuk 15 repositori pihak ketiga yang tidak dibundel secara lokal demi menjaga ukuran distribusi tetap ringkas dan portabel.
 
 ---
 
@@ -142,3 +142,45 @@ Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk 
   bughunter setup
   ```
 - **Kepatuhan Etis Mutlak**: Wajib digunakan hanya pada target dengan otorisasi tertulis resmi atau program bug bounty publik dengan batasan *scope* yang jelas.
+
+### 15. React Bits (David Haz) (`https://github.com/DavidHDev/react-bits`)
+- **Fungsi**: Koleksi komprehensif 60+ komponen animasi, efek teks interaktif (*Text Animations*), kartu visual dinamis (*Components*), efek latar belakang (*Backgrounds*), dan animasi mikro React modular.
+- **Kategori**: React Animation Components, Text Effects & Creative UI.
+- **Lisensi**: MIT.
+- **Website / Demo**: `https://reactbits.dev`
+- **Teknologi**: React, Tailwind CSS, Framer Motion, Three.js, GSAP.
+- **Kapan Digunakan**:
+  - Saat proyek React atau Next.js memerlukan animasi teks tingkat lanjut seperti *Split Text*, *Blur Text*, *Shiny Text*, *Decrypted Text*, *True Focus*, atau *Count Up*.
+  - Saat membangun antarmuka kreatif dengan efek latar belakang dinamis (*Hyperspeed*, *Waves*, *Ballpit*, *Iridescence*, *Squares*, *Grid Motion*).
+  - Saat memerlukan komponen interaktif modern seperti *Tilted Card*, *Spotlight Card*, *Dock*, *Elastic Slider*, atau *Stack*.
+- **Pola Integrasi Toolkit**:
+  - Bekerja sebagai pustaka komponen pelengkap bersama `framer-motion`, `gsap-motion-specialist`, dan `master-design-intelligence`.
+  - Berbasis copy-paste mandiri (*zero unnecessary bloat*), selaras dengan prinsip *Ponytail* dan *Karpathy Guidelines*.
+- **Instalasi / Referensi**:
+  ```bash
+  # Instal dependensi umum yang dibutuhkan komponen:
+  npm install framer-motion clsx tailwind-merge
+
+  # Kloning referensi repositori untuk eksplorasi kode sumber komponen:
+  git clone https://github.com/DavidHDev/react-bits.git
+  ```
+- **Contoh Pemakaian Komponen (SplitText)**:
+  ```jsx
+  import SplitText from './SplitText';
+
+  const handleAnimationComplete = () => {
+    console.log('Semua huruf telah selesai dianimasikan!');
+  };
+
+  <SplitText
+    text="Hello, Creative WebDev!"
+    className="text-2xl font-semibold text-center"
+    delay={150}
+    animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+    animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+    easing="easeOutCubic"
+    threshold={0.2}
+    rootMargin="-50px"
+    onLetterAnimationComplete={handleAnimationComplete}
+  />
+  ```

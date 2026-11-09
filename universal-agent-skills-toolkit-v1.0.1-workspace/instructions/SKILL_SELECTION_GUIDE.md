@@ -18,8 +18,11 @@ Permintaan Desain Pengguna
   ├── Apakah memeriksa tipografi, kontras warna, affordance tombol, atau polishing UI?
   │     └── Aktifkan: impeccable (audit visual craft)
   │
-  └── Apakah memerlukan ikon SVG yang presisi?
-        └── Aktifkan: lucide-icons (ekstraksi ikon otentik tanpa broken paths)
+  ├── Apakah memerlukan ikon SVG yang presisi?
+  │     └── Aktifkan: lucide-icons (ekstraksi ikon otentik tanpa broken paths)
+  │
+  └── Apakah memerlukan komponen animasi teks / efek visual kreatif React?
+        └── Aktifkan: react-bits (repositori upstream: DavidHDev/react-bits)
 ```
 
 ### Aturan Komplementer:
@@ -36,6 +39,7 @@ Permintaan Desain Pengguna
 |---|---|---|---|
 | **Hover, Focus, Tooltip Sederhana** | CSS Transition / Tailwind | JavaScript / GSAP | Memuat JS untuk hover sederhana membebani runtime thread |
 | **Micro-interactions di React (Modal reveal, spring gesture)** | `framer-motion` | GSAP imperative | Motion terintegrasi secara natural dengan siklus hidup React |
+| **Efek Teks Animasi & Kartu Interaktif React (Split Text, Spotlight)** | `react-bits` | Animasi CSS manual rumit | Pustaka `DavidHDev/react-bits` menyediakan pola modular teruji berbasis Tailwind/Framer |
 | **Timeline Panjang, ScrollTrigger, Parallax, SVG Morphing** | `gsap-motion-specialist` | Framer Motion | GSAP memiliki engine perhitungan timeline dan scroll scrub paling stabil |
 | **Animasi di Proyek Non-React (Laravel Blade, Astro, HTML)** | `gsap-motion-specialist` | `framer-motion` | Dilarang memasang React runtime di Laravel hanya untuk animasi |
 | **Simulasi Partikel & Latar Belakang Komputasi GPU** | `shaders-webgpu-specialist` | Three.js berat | Shader kanvas ringan lebih hemat memori dibanding model 3D utuh |

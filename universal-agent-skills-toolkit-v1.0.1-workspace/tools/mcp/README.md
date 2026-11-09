@@ -11,6 +11,7 @@ Dokumen ini menjelaskan cara memasang dan mengonfigurasi MCP servers yang disert
 | **`playwright`** | `@playwright/mcp` | `0.0.84` | Browser Automation | Navigasi web, pengujian UI headless, inspeksi konsol, screenshot DOM. |
 | **`desktop-touch`** | `@harusame64/desktop-touch-mcp` | `2.4.0` | Desktop Automation | Interaksi GUI desktop, mouse/keyboard input, tangkapan layar OS. |
 | **`rea`** | `rea-agents` | `6.5.0` | Reverse Engineering | Analisis biner native, dekompilasi JS/Electron, pelacakan runtime. |
+| **`shadcn`** | `shadcn` | `latest` | UI Component CLI & Registry | Registri komponen shadcn/ui, instalasi blok antarmuka, penelusuran katalog. |
 
 ---
 
@@ -32,6 +33,10 @@ Salin konfigurasi ke `%USERPROFILE%\.gemini\config\mcp_config.json`:
     "rea": {
       "command": "cmd.exe",
       "args": ["/d", "/c", "npx", "-y", "rea-agents@6.5.0", "mcp"]
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"]
     }
   }
 }
@@ -53,6 +58,10 @@ Tambahkan ke konfigurasi Claude Desktop (`claude_desktop_config.json`):
     "rea": {
       "command": "npx",
       "args": ["-y", "rea-agents@6.5.0", "mcp"]
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"]
     }
   }
 }
@@ -66,6 +75,10 @@ Tambahkan ke direktori proyek `.cursor/mcp.json`:
     "playwright": {
       "command": "npx",
       "args": ["-y", "@playwright/mcp@0.0.84"]
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"]
     }
   }
 }

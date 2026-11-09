@@ -18,11 +18,11 @@ Standard AI agents often suffer from generic code patterns, over-engineering, cl
 
 | Capability Pillar | Key Skills & Frameworks | What It Solves |
 |---|---|---|
-| **Design Craft & Visual Intelligence** | `master-design-intelligence`, `anatomy`, `impeccable`, `daisyui`, `lucide-icons` | Stops generic, soulless interfaces; enforces authentic SVG icons, four-tone isometric technical figures, DaisyUI components, and strict anti-watermark policies. |
-| **Advanced Motion & 3D Engineering** | `gsap-motion-specialist`, `shaders-webgpu-specialist`, `dioramas-web-design`, `framer-motion` | Replaces jarring CSS with production-grade GSAP ScrollTrigger timelines, declarative Framer Motion, 3D Three.js dioramas, and WebGPU shaders with automatic 4-tier fallbacks. |
+| **Design Craft & Visual Intelligence** | `master-design-intelligence`, `anatomy`, `impeccable`, `daisyui`, `lucide-icons`, `react-bits` ([`DavidHDev/react-bits`](https://github.com/DavidHDev/react-bits)) | Stops generic, soulless interfaces; enforces authentic SVG icons, animated React components, four-tone isometric technical figures, DaisyUI components, and strict anti-watermark policies. |
+| **Advanced Motion & 3D Engineering** | `gsap-motion-specialist`, `shaders-webgpu-specialist`, `dioramas-web-design`, `framer-motion`, `react-bits` | Replaces jarring CSS with production-grade GSAP ScrollTrigger timelines, declarative Framer Motion, 3D Three.js dioramas, text micro-animations, and WebGPU shaders with automatic 4-tier fallbacks. |
 | **Anti-Slop & Copywriting Hygiene** | `antislop-ui`, `antislop-code`, `antislop-human`, `antislop-copywriting`, `humanizer`, `avoid-ai-writing` | Eradicates robotic AI phrasing, deletes low-value AI comment bloat, guarantees WCAG accessibility, and ensures human-sounding copy. |
 | **Senior Engineering Discipline** | `karpathy-guidelines` ([`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills)), `ponytail`, `superpowers` (TDD, Worktrees, Systematic Debugging), `codebase-improve` | Enforces minimalist surgical code edits, "lazy senior dev" YAGNI principles, isolated git worktrees, strict test-driven development, and root-cause debugging before patching. |
-| **Tooling & Protocol Integration** | `mcp-adapters` (Playwright, Desktop Touch, REA), `graphify`, `audit-toolkit-health` | Standardized Model Context Protocol (MCP) tool configurations for headless browser verification, reverse-engineering, desktop GUI control, and architectural graph inspection. |
+| **Tooling & Protocol Integration** | `mcp-adapters` (Playwright, Desktop Touch, REA, shadcn), `graphify`, `audit-toolkit-health` | Standardized Model Context Protocol (MCP) tool configurations for headless browser verification, reverse-engineering, desktop GUI control, component registry discovery (`shadcn`), and architectural graph inspection. |
 | **Application Security & Bug Hunting** | `agentic-bug-hunter` ([`awarexone/Agentic-Bug-Hunter`](https://github.com/awarexone/Agentic-Bug-Hunter)), `reverse-engineer-anything` (REA) | Automates ethical reconnaissance (`/recon`), web vulnerability testing (`/hunt`), 7-question validation gating (`/validate`), and submission-ready bug bounty reports (`/report`). |
 
 ---
@@ -69,10 +69,10 @@ Better-WebDev/
     │   ├── official/                                   # DaisyUI, Impeccable, Codebase-Improve
     │   ├── third-party/                                # Anti-slop suite, Ponytail, Superpowers, ADRs
     │   ├── custom/                                     # Indexed custom skills mirror
-    │   └── adapters/                                   # Integration guides for 14 external skill repos
+    │   └── adapters/                                   # Integration guides for 15 external skill repos
     │
     ├── tools/                                          # Technical utilities & runtime configurations
-    │   ├── mcp/                                        # Standardized MCP server adapters (Playwright, Touch, REA)
+    │   ├── mcp/                                        # Standardized MCP server adapters (Playwright, Touch, REA, shadcn)
     │   ├── animation/                                  # Motion API documentation & references
     │   ├── graphics-3d/                                # Dioramas Three.js engines & reference assets
     │   ├── ui-libraries/                               # Complete DaisyUI Tailwind component references
