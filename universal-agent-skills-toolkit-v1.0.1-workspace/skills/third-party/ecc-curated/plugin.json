@@ -1,0 +1,5 @@
+{
+  "name": "ecc-curated",
+  "version": "1.0.0",
+  "description": "Curated high-leverage skills from Enterprise Claude Code adapted for Antigravity (context-budget, architecture-decision-records, council, click-path-audit, codebase-onboarding)."
+}

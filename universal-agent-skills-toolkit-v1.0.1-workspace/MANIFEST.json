@@ -1,0 +1,619 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "universal-agent-skills-toolkit",
+  "version": "1.0.1",
+  "description": "Universal AI Agent Skills & Toolkit Portable Distribution for Multi-Agent Coding Ecosystems",
+  "author": "Antigravity Ecosystem / Gofran (GFN Web)",
+  "license": "Multi-license (MIT, Apache-2.0, ISC, GreenSock, UNLICENSED)",
+  "components": [
+    {
+      "id": "SKILL-001",
+      "name": "master-design-intelligence",
+      "category": "Design Orchestration & Governance",
+      "classification": "Custom AGY Skill",
+      "sourceUrl": "Local AGY Environment",
+      "originalRepo": "Custom-developed in AGY by Gofran / GFN Web",
+      "version": "1.0.1",
+      "license": "UNLICENSED (Copyright (c) 2026 Gofran / GFN Web. All rights reserved.)",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [
+        "references/design-intelligence-library"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/custom/master-design-intelligence",
+      "portabilityStatus": "PORTABLE (Relative paths sanitized)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-002",
+      "name": "anatomy",
+      "category": "Technical Isometric Visuals",
+      "classification": "Customized AGY Port",
+      "sourceUrl": "https://github.com/wheresryan22/anatomy",
+      "originalRepo": "wheresryan22/anatomy",
+      "version": "1.0.1",
+      "license": "MIT",
+      "installationType": "Skill + Kit Tools + Node scripts",
+      "dependencies": [
+        "Node.js >= 18"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/custom/anatomy",
+      "portabilityStatus": "PORTABLE (Full kit lathe/tube/audit bundled)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-003",
+      "name": "gsap-motion-specialist",
+      "category": "Animation & Motion Engineering",
+      "classification": "Custom AGY Skill",
+      "sourceUrl": "Local AGY Environment",
+      "originalRepo": "Custom-developed in AGY by Gofran / GFN Web",
+      "version": "1.0.1",
+      "license": "UNLICENSED (Copyright (c) 2026 Gofran / GFN Web. All rights reserved.)",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [
+        "gsap >= 3.12"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/custom/gsap-motion-specialist",
+      "portabilityStatus": "PORTABLE (Self-contained recipes, clean relative paths)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-004",
+      "name": "shaders-webgpu-specialist",
+      "category": "GPU Visual Effects",
+      "classification": "Custom AGY Skill",
+      "sourceUrl": "Local AGY Environment",
+      "originalRepo": "Custom-developed in AGY by Gofran / GFN Web",
+      "version": "1.0.1",
+      "license": "UNLICENSED (Copyright (c) 2026 Gofran / GFN Web. All rights reserved.)",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [
+        "WebGPU API / WebGL2 Fallback"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/custom/shaders-webgpu-specialist",
+      "portabilityStatus": "PORTABLE (4-tier graceful fallback integrated)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-005",
+      "name": "dioramas-web-design",
+      "category": "3D Interactive Web",
+      "classification": "Customized AGY Skill",
+      "sourceUrl": "https://github.com/blendi-remade/dioramas",
+      "originalRepo": "blendi-remade/dioramas",
+      "version": "1.0.1",
+      "license": "MIT",
+      "installationType": "Skill + Engine Reference",
+      "dependencies": [
+        "three >= 0.160",
+        "gsap >= 3.12"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/custom/dioramas-web-design",
+      "portabilityStatus": "PORTABLE (Engine docs & core included, accurate paths)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-006",
+      "name": "lucide-icons",
+      "category": "Icon Vector Systems",
+      "classification": "Custom AGY Skill",
+      "sourceUrl": "https://github.com/lucide-icons/lucide",
+      "originalRepo": "lucide-icons/lucide",
+      "version": "1.0.1",
+      "license": "ISC",
+      "installationType": "Skill + Reference Categories + 1,903 Offline SVGs",
+      "dependencies": [
+        "references/icons/svg"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/custom/lucide-icons",
+      "portabilityStatus": "PORTABLE (1,903 offline SVG icons bundled in references/icons/svg)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-007",
+      "name": "framer-motion",
+      "category": "Declarative Animation Engine",
+      "classification": "Custom AGY Skill",
+      "sourceUrl": "https://github.com/motiondivision/motion",
+      "originalRepo": "motiondivision/motion",
+      "version": "1.0.1",
+      "license": "MIT",
+      "installationType": "File-based Skill Directory with References",
+      "dependencies": [
+        "motion >= 11.0",
+        "references/react-patterns.md"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/custom/framer-motion",
+      "portabilityStatus": "PORTABLE (Restored authentic references: react-patterns, vanilla-waapi, a11y)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-008",
+      "name": "karpathy-guidelines",
+      "category": "Behavioral Coding Standards",
+      "classification": "Custom AGY Skill",
+      "sourceUrl": "Local AGY Environment",
+      "originalRepo": "Andrej Karpathy Behavioral Principles",
+      "version": "1.0.1",
+      "license": "MIT",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/custom/karpathy-guidelines",
+      "portabilityStatus": "PORTABLE (Universal instruction)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-009",
+      "name": "impeccable",
+      "category": "Design Critique & Polish",
+      "classification": "Official Skill",
+      "sourceUrl": "https://github.com/pbakaus/impeccable",
+      "originalRepo": "pbakaus/impeccable",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/official/impeccable",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-010",
+      "name": "daisyui",
+      "category": "Tailwind UI Component Encyclopedia",
+      "classification": "Official Skill",
+      "sourceUrl": "https://github.com/saadeghi/daisyui",
+      "originalRepo": "saadeghi/daisyui",
+      "version": "5.0.0",
+      "license": "MIT",
+      "installationType": "Full Skill Directory with 50+ Component Docs",
+      "dependencies": [
+        "tailwindcss"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/official/daisyui",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-011",
+      "name": "codebase-improve",
+      "category": "Codebase Architecture & Audit",
+      "classification": "Official Skill",
+      "sourceUrl": "https://github.com/shadcn-ui/ui",
+      "originalRepo": "shadcn",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/official/codebase-improve",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-012",
+      "name": "design-taste-frontend",
+      "category": "Frontend Art Direction",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill",
+      "originalRepo": "Leonxlnx/taste-skill",
+      "version": "2.0.0",
+      "license": "MIT",
+      "installationType": "Full Skill Repository with Inspector & Rules",
+      "dependencies": [
+        "Node.js >= 18"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/design-taste-frontend",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-013",
+      "name": "avoid-ai-writing",
+      "category": "Writing Quality & Pattern Detector",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/conorbronsdon/avoid-ai-writing",
+      "originalRepo": "conorbronsdon/avoid-ai-writing",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "installationType": "Skill + Detector Utilities + Corpus",
+      "dependencies": [
+        "Python >= 3.9"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/avoid-ai-writing",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-014",
+      "name": "humanizer",
+      "category": "Human Writing Tone",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/blader/humanizer",
+      "originalRepo": "blader/humanizer",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "Skill Directory + Validation Script",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/humanizer",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-015",
+      "name": "no-ai-slop",
+      "category": "Editorial Sharpening",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/petergyang/no-ai-slop",
+      "originalRepo": "petergyang/no-ai-slop",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/no-ai-slop",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-016",
+      "name": "stop-slop",
+      "category": "AI Cliche & Passive Voice Removal",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/hardikpandya/stop-slop",
+      "originalRepo": "hardikpandya/stop-slop",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "Skill Directory + References",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex",
+        "Gemini CLI",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/stop-slop",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-017",
+      "name": "antislop",
+      "category": "Anti-Slop Holistic Plugin Suite",
+      "classification": "Third-Party Plugin",
+      "sourceUrl": "https://github.com/miqdadbadjuber/anti-slop",
+      "originalRepo": "miqdadbadjuber/anti-slop",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "Full Plugin with 6 Skills & CLI",
+      "dependencies": [
+        "Node.js >= 18"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Cursor AI",
+        "OpenCode"
+      ],
+      "localPackagePath": "skills/third-party/antislop",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-018",
+      "name": "superpowers",
+      "category": "Core Engineering Workflows",
+      "classification": "Third-Party Plugin",
+      "sourceUrl": "https://github.com/obra/superpowers",
+      "originalRepo": "obra/superpowers",
+      "version": "3.5.0",
+      "license": "MIT",
+      "installationType": "Full Plugin with 15 Skills & Hooks",
+      "dependencies": [
+        "Git",
+        "Bash / Shell"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Cursor AI",
+        "OpenCode"
+      ],
+      "localPackagePath": "skills/third-party/superpowers",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-019",
+      "name": "ponytail",
+      "category": "Lazy Senior Developer Principles",
+      "classification": "Third-Party Plugin",
+      "sourceUrl": "https://github.com/DietrichGebert/ponytail",
+      "originalRepo": "DietrichGebert/ponytail",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "Full Plugin with 6 Skills",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/ponytail",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-020",
+      "name": "ecc-curated",
+      "category": "Everything Claude Code Curated Skills",
+      "classification": "Third-Party Plugin",
+      "sourceUrl": "https://github.com/affaan-m/ecc",
+      "originalRepo": "affaan-m/ecc",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "Curated Plugin with 5 Skills",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/ecc-curated",
+      "portabilityStatus": "PORTABLE (Cleaned local paths)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-021",
+      "name": "graphify",
+      "category": "Codebase Knowledge Graph",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/Graphify-Labs/graphify",
+      "originalRepo": "Graphify-Labs/graphify",
+      "version": "0.4.0",
+      "license": "MIT",
+      "installationType": "Skill + References",
+      "dependencies": [
+        "Python >= 3.10"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/graphify",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-022",
+      "name": "mcptoon",
+      "category": "MCP Discovery Compression",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/activeing123/mcptoon",
+      "originalRepo": "activeing123/mcptoon",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [
+        "mcptoon CLI"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Cursor AI"
+      ],
+      "localPackagePath": "skills/third-party/mcptoon",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-023",
+      "name": "reverse-engineer-anything",
+      "category": "Reverse Engineering Toolkit",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/morluto/rea",
+      "originalRepo": "morluto/rea",
+      "version": "6.5.0",
+      "license": "AGPL-3.0",
+      "installationType": "Skill + Reference Playbooks",
+      "dependencies": [
+        "Node.js >= 18",
+        "rea MCP server"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Gemini CLI"
+      ],
+      "localPackagePath": "skills/third-party/reverse-engineer-anything",
+      "portabilityStatus": "PORTABLE (Canonical deduplicated copy)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-024",
+      "name": "codex-ppt",
+      "category": "Presentation Deck Generation",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "https://github.com/ningzimu/codex-ppt-skill",
+      "originalRepo": "ningzimu/codex-ppt-skill",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "OpenAI Codex",
+        "Claude Code"
+      ],
+      "localPackagePath": "skills/third-party/codex-ppt",
+      "portabilityStatus": "PORTABLE (Canonical deduplicated copy)",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": "SKILL-025",
+      "name": "find-skills",
+      "category": "Skill Discovery & Installation",
+      "classification": "Third-Party Skill",
+      "sourceUrl": "Local AGY Environment",
+      "originalRepo": "Agent Skills Ecosystem",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installationType": "File-based Skill Directory",
+      "dependencies": [],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Gemini CLI"
+      ],
+      "localPackagePath": "skills/third-party/find-skills",
+      "portabilityStatus": "PORTABLE",
+      "verificationStatus": "VERIFIED"
+    }
+  ],
+  "mcpServers": [
+    {
+      "name": "playwright",
+      "package": "@playwright/mcp",
+      "pinnedVersion": "0.0.84",
+      "license": "Apache-2.0",
+      "status": "VERIFIED"
+    },
+    {
+      "name": "desktop-touch",
+      "package": "@harusame64/desktop-touch-mcp",
+      "pinnedVersion": "2.4.0",
+      "license": "MIT",
+      "status": "VERIFIED"
+    },
+    {
+      "name": "rea",
+      "package": "rea-agents",
+      "pinnedVersion": "6.5.0",
+      "license": "AGPL-3.0",
+      "status": "VERIFIED"
+    }
+  ],
+  "sourceInventorySummary": {
+    "totalExamined": 40,
+    "alreadyInstalled": 26,
+    "partiallyInstalled": 1,
+    "notInstalledExternalAdapters": 13,
+    "sum": 40
+  },
+  "externalAdapters": [
+    "tabler",
+    "hallmark",
+    "hue",
+    "vercel-labs/skills",
+    "anthropics/skills",
+    "ui-ux-pro-max-skill",
+    "dickwu/apple-design-skill",
+    "jakubkrehel/skills",
+    "emilkowalski/skills/apple-design",
+    "Dammyjay93/interface-design",
+    "Superfuture/design-review",
+    "google-labs-code/stitch-skills"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/mcp-config.json",
+  "description": "Universal Multi-Platform MCP Servers Configuration for AI Coding Agents (Release v1.0.1 - Pinned Versions)",
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.84"
+      ],
+      "env": {},
+      "description": "Browser automation and UI interaction server powered by Microsoft Playwright (Version 0.0.84 verified)"
+    },
+    "desktop-touch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@harusame64/desktop-touch-mcp@2.4.0"
+      ],
+      "env": {},
+      "description": "Desktop GUI screenshot and input automation tool (Version 2.4.0 verified)"
+    },
+    "rea": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "rea-agents@6.5.0",
+        "mcp"
+      ],
+      "windowsCommand": "cmd.exe",
+      "windowsArgs": [
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "rea-agents@6.5.0",
+        "mcp"
+      ],
+      "env": {},
+      "description": "Reverse Engineer Anything (REA) multi-target analysis and runtime inspection server (Version 6.5.0 verified)"
+    }
+  }
+}

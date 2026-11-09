@@ -1,0 +1,20 @@
+{
+  "name": "ecc-curated",
+  "displayName": "ECC Curated",
+  "version": "1.0.0",
+  "description": "Curated high-leverage skills from Enterprise Claude Code adapted for Antigravity: context budgeting, ADR management, 4-voice decision council, UI click-path behavioral audit, and codebase onboarding.",
+  "category": "Developer Tools",
+  "keywords": [
+    "context-budget",
+    "architecture-decision-records",
+    "adr",
+    "council",
+    "click-path-audit",
+    "codebase-onboarding",
+    "ecc"
+  ],
+  "author": {
+    "name": "Enterprise Claude Code (Curated for AGY)"
+  },
+  "license": "MIT"
+}
