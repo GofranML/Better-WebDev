@@ -108,58 +108,52 @@ Better-WebDev/
 
 ---
 
-##  Quickstart Guide (Zero Manual Setup)
+##  Quickstart Guide
 
-Tidak perlu menyalin atau menempelkan (*copy-paste*) berkas keterampilan secara manual. Biarkan AI Agent Anda di CLI yang mengekstrak dan memasangnya secara otomatis dalam 3 langkah mudah:
+No manual file copying or pasting is required. Let your AI Agent in the CLI extract and install everything automatically in 3 simple steps:
 
-### Langkah 1: Unduh Berkas ZIP
-Unduh atau letakkan berkas [`universal-agent-skills-toolkit-v1.0.1.zip`](universal-agent-skills-toolkit-v1.0.1.zip) ke dalam direktori kerja proyek Anda:
+### Step 1: Download the Toolkit Archive
+Download or place [`universal-agent-skills-toolkit-v1.0.1.zip`](universal-agent-skills-toolkit-v1.0.1.zip) into your working directory:
 
 ```bash
-# Opsi A: Unduh langsung via curl / wget
+# Option A: Download directly via curl / wget
 curl -L -O https://github.com/GofranML/Better-WebDev/raw/main/universal-agent-skills-toolkit-v1.0.1.zip
 
-# Opsi B: Atau kloning repositori lengkap
+# Option B: Or clone the full repository
 git clone https://github.com/GofranML/Better-WebDev.git
 ```
 
-### Langkah 2: Buka AI Agent di CLI
-Buka terminal pada folder tempat berkas zip tersebut berada, lalu jalankan AI Agent pilihan Anda:
+### Step 2: Open Your AI Agent in the Terminal
+Open your terminal in the directory where the zip file is located, then launch your AI Agent:
 
 ```bash
 # Google Antigravity CLI (AGY)
 agy
 
-# Atau Claude Code
+# Or Claude Code
 claude
 
-# Atau Gemini CLI / Cursor terminal
+# Or Gemini CLI / Cursor terminal
 gemini
 ```
 
-### Langkah 3: Minta Agent untuk Memasang Otomatis
-Salin dan kirimkan prompt instruksi berikut langsung ke chat AI Agent Anda:
+### Step 3: Instruct Your Agent to Self-Install
+Send this single prompt directly to your AI Agent in the CLI chat:
 
-> **Prompt Instruksi untuk AI Agent (Bahasa Indonesia):**
-> ```text
-> Tolong ekstrak file universal-agent-skills-toolkit-v1.0.1.zip di folder ini, baca petunjuk yang ada di dalam INSTALL.md dan instructions/UNIVERSAL_AGENT_INSTRUCTIONS.md, lalu pasang dan integrasikan keterampilan (skills) serta instruksinya secara otomatis ke lingkungan agent ini tanpa duplikasi.
-> ```
-
-> **Prompt for AI Agent (English):**
 > ```text
 > Extract universal-agent-skills-toolkit-v1.0.1.zip in this directory, review the instructions in INSTALL.md and instructions/UNIVERSAL_AGENT_INSTRUCTIONS.md, and automatically configure and install the appropriate skills and guidelines for this agent environment without duplicating existing tools.
 > ```
 
-### 🔍 Cara Kerja Otomatis di Balik Layar
-1. **Identifikasi Diri Agen**: AI Agent Anda akan mendeteksi platformnya sendiri (Google Antigravity, Claude Code, Gemini CLI, Cursor, atau Codex).
-2. **Audit Pencegahan Duplikasi**: Agen memeriksa keterampilan yang sudah ada di sistem Anda terhadap `MANIFEST.json` dan `DUPLICATE_DETECTION.md`.
-3. **Pemasangan Mandiri**: Agen membuat tautan symlink atau menyalin skill yang dibutuhkan ke direktori resmi agent harness.
-4. **Verifikasi**: Agen memverifikasi bahwa seluruh metadata dan instruksi terbaca dengan sempurna.
+### How It Works Under the Hood
+1. **Agent Self-Identification**: Your AI Agent automatically detects its host environment (Google Antigravity, Claude Code, Gemini CLI, Cursor, or Codex).
+2. **Duplicate Prevention Audit**: The agent scans your existing host skills against `MANIFEST.json` and `DUPLICATE_DETECTION.md`.
+3. **Automated Linking & Setup**: The agent creates symlinks or copies only missing skills and protocols into the agent's target directory.
+4. **Verification**: The agent verifies that all frontmatter metadata and operational instructions are discovered and loaded properly.
 
 ---
 
-### Manual Integration Reference (Opsional)
-Jika Anda lebih menyukai penempatan manual untuk kontrol penuh, gunakan referensi direktori berikut:
+### Manual Integration Reference (Optional)
+If you prefer manual placement or need customized routing, refer to the target directories below:
 
 | Agent | Target Directory / Integration Method | Documentation |
 |---|---|---|
