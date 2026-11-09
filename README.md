@@ -23,6 +23,7 @@ Standard AI agents often suffer from generic code patterns, over-engineering, cl
 | **Anti-Slop & Copywriting Hygiene** | `antislop-ui`, `antislop-code`, `antislop-human`, `antislop-copywriting`, `humanizer`, `avoid-ai-writing` | Eradicates robotic AI phrasing, deletes low-value AI comment bloat, guarantees WCAG accessibility, and ensures human-sounding copy. |
 | **Senior Engineering Discipline** | `karpathy-guidelines` ([`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills)), `ponytail`, `superpowers` (TDD, Worktrees, Systematic Debugging), `codebase-improve` | Enforces minimalist surgical code edits, "lazy senior dev" YAGNI principles, isolated git worktrees, strict test-driven development, and root-cause debugging before patching. |
 | **Tooling & Protocol Integration** | `mcp-adapters` (Playwright, Desktop Touch, REA), `graphify`, `audit-toolkit-health` | Standardized Model Context Protocol (MCP) tool configurations for headless browser verification, reverse-engineering, desktop GUI control, and architectural graph inspection. |
+| **Application Security & Bug Hunting** | `agentic-bug-hunter` ([`awarexone/Agentic-Bug-Hunter`](https://github.com/awarexone/Agentic-Bug-Hunter)), `reverse-engineer-anything` (REA) | Automates ethical reconnaissance (`/recon`), web vulnerability testing (`/hunt`), 7-question validation gating (`/validate`), and submission-ready bug bounty reports (`/report`). |
 
 ---
 
@@ -68,7 +69,7 @@ Make-the-AI-agent-better/
     │   ├── official/                                   # DaisyUI, Impeccable, Codebase-Improve
     │   ├── third-party/                                # Anti-slop suite, Ponytail, Superpowers, ADRs
     │   ├── custom/                                     # Indexed custom skills mirror
-    │   └── adapters/                                   # Integration guides for 12 external skill repos
+    │   └── adapters/                                   # Integration guides for 14 external skill repos
     │
     ├── tools/                                          # Technical utilities & runtime configurations
     │   ├── mcp/                                        # Standardized MCP server adapters (Playwright, Touch, REA)

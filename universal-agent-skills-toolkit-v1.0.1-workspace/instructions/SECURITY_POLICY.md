@@ -35,3 +35,11 @@ Dokumen ini menetapkan standar keamanan, privasi data, dan tata kelola eksekusi 
 
 1. **Sanitasi Antarmuka**: Tidak boleh ada elemen markup visual yang disuntikkan secara tersembunyi (*hidden backlink*, banner promosi, atau teks buatan AI yang dipaksakan).
 2. **Kepatuhan Lisensi**: Hak cipta pembuat asli pada header file kode sumber wajib dipertahankan sesuai hukum internasional.
+
+---
+
+## 5. Tata Kelola Pengujian Keamanan & Bug Bounty Terotorisasi (Ethical Security Governance)
+
+1. **Otorisasi Mutlak (*Authorized In-Scope Only*)**: Seluruh pemindaian keamanan menggunakan skill atau plugin (seperti `agentic-bug-hunter` atau utilitas CLI pendukungnya) wajib memiliki izin tertulis resmi atau berada dalam aturan program bug bounty aktif. Pengujian tanpa izin (*unauthorized scanning*) dilarang keras.
+2. **Gerbang Validasi Ketaatan Dampak**: Setiap temuan kerentanan wajib melalui validasi ketat (*7-question validation gate*) untuk membuktikan dampak nyata, mencegah pengiriman laporan spekulatif/teoritis, dan mengeliminasi positif palsu.
+3. **Eksekusi Aman & Non-Destruktif**: Alat pemindaian keamanan jaringan/web (`nuclei`, `ffuf`, `httpx`, `subfinder`) wajib dijalankan secara terkendali dan non-destruktif untuk mencegah gangguan ketersediaan (*Denial of Service*) pada sistem target.

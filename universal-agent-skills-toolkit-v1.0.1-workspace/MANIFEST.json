@@ -596,11 +596,11 @@
     }
   ],
   "sourceInventorySummary": {
-    "totalExamined": 40,
+    "totalExamined": 41,
     "alreadyInstalled": 26,
     "partiallyInstalled": 1,
-    "notInstalledExternalAdapters": 13,
-    "sum": 40
+    "notInstalledExternalAdapters": 14,
+    "sum": 41
   },
   "externalAdapters": [
     "tabler",
@@ -614,6 +614,7 @@
     "emilkowalski/skills/apple-design",
     "Dammyjay93/interface-design",
     "Superfuture/design-review",
-    "google-labs-code/stitch-skills"
+    "google-labs-code/stitch-skills",
+    "awarexone/Agentic-Bug-Hunter"
   ]
 }

@@ -40,7 +40,7 @@ Universal-Agent-Skills-Toolkit/
 │   ├── official/                      # Skills resmi (DaisyUI, Impeccable, Improve)
 │   ├── third-party/                   # Skills pihak ketiga (Anti-slop, Superpowers, dll)
 │   ├── custom/                        # Kaca cermin custom skills terindeks
-│   └── adapters/                      # Panduan integrasi 12 repositori eksternal
+│   └── adapters/                      # Panduan integrasi 14 repositori eksternal
 │
 ├── tools/                             # Perangkat pendukung teknis
 │   ├── mcp/                           # Konfigurasi universal MCP (Playwright, Touch, REA)
@@ -86,6 +86,7 @@ Universal-Agent-Skills-Toolkit/
 3. **Pemberantasan Pola AI-Slop**: Penataan terstruktur 5 alat anti-slop (`humanizer`, `avoid-ai-writing`, `no-ai-slop`, `stop-slop`, `antislop`) dengan pembagian peran yang jelas.
 4. **Alur Kerja Rekayasa Senior**: Mengintegrasikan `superpowers` (TDD, brainstorming, worktrees), `ponytail` (anti-overengineering), dan `karpathy-guidelines` ([`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills) — bedah kode minimalis).
 5. **Universal Portability**: Semua berkas telah disanitasi dari absolute path lokal Windows dan siap digunakan pada Linux, macOS, maupun Windows.
+6. **Keamanan Aplikasi & Bug Hunting**: Mengintegrasikan adaptasi `agentic-bug-hunter` ([`awarexone/Agentic-Bug-Hunter`](https://github.com/awarexone/Agentic-Bug-Hunter)) untuk reconnaissance, hunting kerentanan web, 7-question validation gate, dan pelaporan bug bounty standar industri secara etis dan terotorisasi.
 
 ---
 

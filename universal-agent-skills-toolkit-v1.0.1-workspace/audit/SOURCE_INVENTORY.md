@@ -1,10 +1,10 @@
-# Source Inventory: Audit Komprehensif 40 Repositori & Referensi
+# Source Inventory: Audit Komprehensif 41 Repositori & Referensi
 
-Dokumen ini mencatat inventarisasi detail dari seluruh 40 sumber resmi yang diperiksa dalam pembuatan paket `Universal-Agent-Skills-Toolkit`.
+Dokumen ini mencatat inventarisasi detail dari seluruh 41 sumber resmi yang diperiksa dalam pembuatan paket `Universal-Agent-Skills-Toolkit`.
 
 ---
 
-## 1. Daftar Lengkap 40 Repositori & Referensi
+## 1. Daftar Lengkap 41 Repositori & Referensi
 
 | No | Nama Repositori / Referensi | URL Resmi | Kategori | Status di Toolkit | Lisensi |
 |:---:|---|---|---|:---:|:---:|
@@ -48,3 +48,4 @@ Dokumen ini mencatat inventarisasi detail dari seluruh 40 sumber resmi yang dipe
 | 38 | Playwright MCP | `https://github.com/microsoft/playwright-mcp` | Browser Automation Server | Bundled (`tools/mcp/mcp-universal.json`) | Apache-2.0 |
 | 39 | Desktop Touch MCP | `https://github.com/Harusame64/...` | Desktop GUI Automation | Bundled (`tools/mcp/mcp-universal.json`) | MIT |
 | 40 | Impeccable Style Doc | `https://impeccable.style/` | Official Impeccable Doc | Bundled (`skills/official/impeccable`) | Doc |
+| 41 | Agentic Bug Hunter | `https://github.com/awarexone/Agentic-Bug-Hunter` | Security & Bug Bounty Agent | Adapter Ref (`skills/adapters/`) | MIT |

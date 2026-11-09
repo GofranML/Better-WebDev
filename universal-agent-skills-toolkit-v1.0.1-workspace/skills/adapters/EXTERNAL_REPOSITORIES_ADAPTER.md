@@ -1,6 +1,6 @@
 # External Repositories Adapter & Integration Guide
 
-Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk instalasi untuk 13 repositori pihak ketiga yang tidak dibundel secara lokal demi menjaga ukuran distribusi tetap ringkas dan portabel.
+Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk instalasi untuk 14 repositori pihak ketiga yang tidak dibundel secara lokal demi menjaga ukuran distribusi tetap ringkas dan portabel.
 
 ---
 
@@ -114,3 +114,31 @@ Dokumen ini menyediakan spesifikasi arsitektur, panduan integrasi, dan petunjuk 
   # Atau kloning referensi:
   git clone https://github.com/multica-ai/andrej-karpathy-skills.git
   ```
+
+### 14. Agentic Bug Hunter (AwareXone) (`https://github.com/awarexone/Agentic-Bug-Hunter`)
+- **Fungsi**: AI-powered bug bounty hunting & application security toolkit end-to-end yang mengotomatisasi alur kerja pengujian keamanan dari reconnaissance hingga pembuatan laporan akhir.
+- **Kategori**: Application Security & Bug Bounty Agent Skill / Plugin.
+- **Lisensi**: MIT.
+- **Arsitektur & Mode Eksekusi**:
+  1. *Claude Code Plugin / Skills Package*: Menyediakan slash commands bawaan (`/recon`, `/hunt`, `/validate`, `/report`) dan agen spesialis keamanan untuk alur investigasi langsung.
+  2. *Standalone CLI (`bughunter`)*: Menjalankan hunting langsung dari terminal dengan dukungan multi-provider LLM (gratis/lokal via Ollama, Groq, DeepSeek, maupun API komersial OpenAI dan Claude).
+  3. *MCP Server*: Terintegrasi sebagai Model Context Protocol (MCP) server untuk Cursor, AGY, dan harness agen lainnya.
+  4. *Hunt Memory*: Menyimpan riwayat konteks target dan pola keamanan antar-sesi secara persisten.
+- **Pipeline 4 Tahap**:
+  1. *Reconnaissance (`/recon`)*: Pemetaan subdomain, probing host aktif, dan crawling endpoint menggunakan integrasi `subfinder`, `httpx`, `katana`.
+  2. *Vulnerability Hunting (`/hunt`)*: Pengujian kerentanan web (OWASP Top 10, IDOR, SSRF, XSS, injection) menggunakan `nuclei`, `ffuf`, `dalfox`, `nmap`.
+  3. *Validation Gate (`/validate`)*: Evaluasi ketat 7-langkah untuk memfilter temuan teoritis dan mengeliminasi positif palsu menjadi Proof of Concept (PoC) terverifikasi.
+  4. *Report Generation (`/report`)*: Pembuatan draf laporan komprehensif berformat standar platform bug bounty (**HackerOne, Bugcrowd, Intigriti, Immunefi**).
+- **Instalasi ke Agen**:
+  ```bash
+  # Mode 1: Claude Code Plugin / Skills Package
+  git clone https://github.com/Awarexone/Agentic-Bug-Hunter.git
+  cd Agentic-Bug-Hunter
+  chmod +x install_tools.sh && ./install_tools.sh  # Opsional: install security CLI tools
+  chmod +x install.sh && ./install.sh              # Pasang skills, commands & agents
+
+  # Mode 2: Standalone CLI via PyPI
+  pip install agentic-bug-hunter
+  bughunter setup
+  ```
+- **Kepatuhan Etis Mutlak**: Wajib digunakan hanya pada target dengan otorisasi tertulis resmi atau program bug bounty publik dengan batasan *scope* yang jelas.

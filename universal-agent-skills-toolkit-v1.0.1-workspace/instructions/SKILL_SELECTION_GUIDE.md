@@ -61,3 +61,15 @@ Pilih **satu alat utama** per jenis tugas:
 - **Untuk fitur baru atau perbaikan bug kritis**: Mulai dengan `superpowers:brainstorming` -> `superpowers:writing-plans` -> `superpowers:test-driven-development` -> `superpowers:verification-before-completion`.
 - **Untuk tugas coding harian yang lugas**: Terapkan prinsip `ponytail` (kode paling ringkas) dan `karpathy-guidelines` (upstream: [`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills) — bedah minimalis tanpa fitur spekulatif).
 - **Untuk audit arsitektur repositori yang besar**: Jalankan `codebase-improve` dalam mode read-only untuk memetakan rencana kerja.
+
+---
+
+## 5. Matriks Seleksi Keamanan & Bug Hunting (Security & Bug Bounty Cluster)
+
+| Kebutuhan Pengujian / Analisis | Pilihan Utama | Pendamping / Alternatif | Batasan & Tata Kelola |
+|---|---|---|---|
+| **Reconnaissance & Pemetaan Subdomain / Endpoint** | `agentic-bug-hunter` (`/recon`) | `subfinder`, `httpx`, `katana` | Hanya dijalankan pada target program yang terotorisasi secara sah |
+| **Hunting Kerentanan Aplikasi Web (OWASP, IDOR, SSRF)** | `agentic-bug-hunter` (`/hunt`) | `nuclei`, `ffuf`, `dalfox` | Utamakan pengujian non-destruktif |
+| **Validasi & Eliminasi Positif Palsu** | `agentic-bug-hunter` (`/validate`) | Manual verification | Wajib lolos 7-question gate untuk membuktikan PoC nyata |
+| **Penyusunan Laporan Bug Bounty Standar Industri** | `agentic-bug-hunter` (`/report`) | Markdown template | Menghasilkan laporan berstandar HackerOne, Bugcrowd, Intigriti |
+| **Analisis Biner Native, Firmware & Runtime Decompilation** | `reverse-engineer-anything` (REA) | GDB / Frida / Rizin | Khusus analisis artefak biner & runtime lokal |

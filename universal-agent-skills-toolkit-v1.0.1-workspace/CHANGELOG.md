@@ -23,6 +23,7 @@ Seluruh riwayat pembuatan, restrukturisasi, sanitasi jalur, dan verifikasi paket
 - **Adaptor Instalasi Multi-Agent**: Menyediakan dokumen panduan untuk Google Antigravity, Claude Code, OpenAI Codex, Gemini CLI, Cursor AI, dan Generic Agents.
 - **Skrip Diagnosa Kesehatan**: Menambahkan `tools/utilities/audit-toolkit-health.mjs`.
 - **Katalog Mesin & Manifest**: Menyusun `MANIFEST.json` berisikan metadata seluruh komponen.
+- **Integrasi Keamanan Aplikasi & Bug Hunting**: Menambahkan panduan adapter dan instruksi operasional untuk `agentic-bug-hunter` (AwareXone) pada `skills/adapters/EXTERNAL_REPOSITORIES_ADAPTER.md`, matriks seleksi pada `SKILL_SELECTION_GUIDE.md`, aturan pengujian keamanan pada `SECURITY_POLICY.md`, dan instruksi agen pada `UNIVERSAL_AGENT_INSTRUCTIONS.md`.
 
 ### Changed (Sanitasi Jalur & Perbaikan)
 - Mengubah seluruh referensi jalur absolut Windows (`D:\AI\design-intelligence-library` dan `D:\SEMESTER 5\PEMOGRAMAN WEB LANJUTAN\tools\...`) menjadi relative path standar paket.

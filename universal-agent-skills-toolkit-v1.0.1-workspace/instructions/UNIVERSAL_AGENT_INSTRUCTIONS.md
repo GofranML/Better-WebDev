@@ -75,6 +75,11 @@ Jangan memanggil beberapa skill yang berada dalam ranah yang sama secara bersama
 - **Audit Kode Skala Besar**: Gunakan `codebase-improve` (author: shadcn) untuk memetakan arsitektur dan membuat rencana kerja mandiri bagi agen eksekutor.
 - **Reverse Engineering Target**: Gunakan `reverse-engineer-anything` (REA) untuk membedah biner native atau runtime web.
 
+### E. Ranah Keamanan Aplikasi & Bug Hunting (Application Security & Bug Bounty)
+- **Otomasi Pengujian Kerentanan & Bug Bounty**: Gunakan `agentic-bug-hunter` (repositori resmi / upstream: [`awarexone/Agentic-Bug-Hunter`](https://github.com/awarexone/Agentic-Bug-Hunter)) sebagai plugin dan toolkit bug bounty cerdas dengan alur kerja 4-tahap terstruktur: Reconnaissance (`/recon`), Vulnerability Hunting (`/hunt`), 7-Question Validation Gate (`/validate`), dan pelaporan otomatis siap kirim (`/report`) berstandar HackerOne, Bugcrowd, Intigriti, dan Immunefi.
+- **Dekonstruksi Biner & Reverse Engineering**: Padukan dengan `reverse-engineer-anything` (REA) saat pengujian memerlukan inspeksi artefak biner native, tracing runtime, atau dekompilasi aplikasi.
+- **Kepatuhan Etika & Batasan Otorisasi**: Seluruh pengujian keamanan mutlak dijalankan hanya pada target yang memiliki izin tertulis atau berada dalam cakupan (*in-scope*) program bug bounty resmi. Dilarang melakukan serangan destruktif atau pengujian tanpa otorisasi.
+
 ---
 
 ## 5. Cara Menjalankan Skrip Bantuan & Memeriksa Kesehatan Paket
