@@ -4,6 +4,13 @@ Seluruh riwayat pembuatan, restrukturisasi, sanitasi jalur, dan verifikasi paket
 
 ---
 
+## [1.0.1] - 2026-11-10
+
+### Changed
+- Memperbarui nama repositori dan identitas proyek menjadi **Better WebDev** (`https://github.com/GofranML/Better-WebDev.git`).
+
+---
+
 ## [1.0.0] - 2026-11-09
 
 ### Added (Penambahan Komponen)

@@ -1,4 +1,4 @@
-# Make The AI Agent Better 
+# Better WebDev
 ### Universal AI Agent Skills, Protocols & Toolkit Portable Distribution (v1.0.1)
 
 [![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](universal-agent-skills-toolkit-v1.0.1-workspace/CHANGELOG.md)
@@ -6,13 +6,13 @@
 [![Architecture](https://img.shields.io/badge/architecture-portable%20%26%20self--contained-orange.svg)](universal-agent-skills-toolkit-v1.0.1-workspace/COMPATIBILITY.md)
 [![Agents](https://img.shields.io/badge/supported%20agents-Antigravity%20%7C%20Claude%20%7C%20Codex%20%7C%20Gemini%20%7C%20Cursor-purple.svg)](universal-agent-skills-toolkit-v1.0.1-workspace/INSTALL.md)
 
-**Make The AI Agent Better** is a battle-tested, portable distribution designed to elevate AI coding assistants from simple code-generation bots into senior-grade software engineers, meticulous UI/UX craftspeople, and disciplined technical architects.
+**Better WebDev** is a battle-tested, portable distribution designed to elevate AI coding assistants from simple code-generation bots into senior-grade software engineers, meticulous UI/UX craftspeople, and disciplined technical architects.
 
 It packages a comprehensive suite of curated skills, engineering protocols, verified design references, Model Context Protocol (MCP) configurations, and anti-slop guidelines developed in the **Google Antigravity (AGY)** ecosystem and fully adapted for **Claude Code, OpenAI Codex, Gemini CLI, Cursor AI, and generic LLM agents**.
 
 ---
 
-##  What Makes The AI Agent Better?
+##  What Makes Better WebDev Different?
 
 Standard AI agents often suffer from generic code patterns, over-engineering, cliché design templates ("AI slop"), uncontrolled dependencies, and hallucinated API paths. This toolkit equips agents with clear operational standards:
 
@@ -30,7 +30,7 @@ Standard AI agents often suffer from generic code patterns, over-engineering, cl
 ##  Repository Structure
 
 ```text
-Make-the-AI-agent-better/
+Better-WebDev/
 ├── README.md                                           # Primary repository documentation (this file)
 ├── .gitignore                                          # Clean repository exclusions
 │
